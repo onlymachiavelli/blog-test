@@ -10,7 +10,7 @@ import Head from 'next/head'
 
 const getBlog = async (id:any) =>{
     try {
-        const res:any = await axios.get("http://localhost:3001/api/by?id="+id)
+        const res:any = await axios.get("https://blogtst.vercel.app/api/by?id="+id)
         return res.data
     }catch(e){
         console.log(e)

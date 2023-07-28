@@ -6,7 +6,7 @@ import axios from 'axios'
 
 const getBlogs = async () => { 
   try {
-    const res = await axios.get("http://localhost:3001/api/all")
+    const res = await axios.get("https://blogtst.vercel.app/api/all")
     return res.data
   } catch (error) {
     console.error("Error fetching data:", error);
