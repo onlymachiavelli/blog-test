@@ -104,6 +104,238 @@ Using these new measures together with the standard measures for the other three
 
     } , 
 
+    {
+        id: 4,
+        username: "John Doe",
+        avatar: "https://www.w3schools.com/w3images/avatar1.png",
+        bio: "John Doe is a software engineer and technology enthusiast ...",
+
+        // Post data
+        category: ["TECHNOLOGY"],
+        title: "The Future of Artificial Intelligence: Challenges and Opportunities",
+        date: "October 22, 2022",
+        image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+        text: `
+        Artificial Intelligence (AI) has seen remarkable advancements in recent years, from self-driving cars to natural language processing. However, as AI continues to evolve and permeate various industries, it also brings along its fair share of challenges.
+
+        One of the main concerns surrounding AI is ethics. As AI systems become more sophisticated, they can make decisions that have significant impacts on human lives. Ensuring that AI algorithms are fair, transparent, and unbiased becomes crucial to avoid discriminatory outcomes. Additionally, there are ethical questions about using AI in areas like surveillance and autonomous weaponry.
+
+        Another challenge is the potential displacement of jobs. AI and automation can lead to increased efficiency, but they may also replace certain job roles, leading to unemployment and economic disruption. Policymakers and businesses need to collaborate to address this issue and find ways to reskill the workforce for the AI-driven future.
+
+        Despite the challenges, AI offers numerous opportunities. It can revolutionize healthcare, assisting in diagnoses and drug discovery. AI-driven automation can optimize supply chains, making them more efficient and sustainable. AI also has the potential to accelerate scientific research by analyzing vast amounts of data and identifying patterns.
+
+        To unlock the full potential of AI while mitigating its risks, collaboration between governments, tech companies, and researchers is essential. Establishing clear regulations and guidelines can ensure the responsible development and deployment of AI technologies.
+
+        As we move into an AI-driven era, it's crucial to strike a balance between embracing innovation and addressing the associated challenges. AI has the power to transform our world, and we must work collectively to shape its trajectory for the better.
+        `
+    },
+
+    {
+        id: 5,
+        username: "Emily Smith",
+        avatar: "https://www.w3schools.com/w3images/avatar3.png",
+        bio: "Emily Smith is a travel enthusiast and freelance writer ...",
+
+        // Post data
+        category: ["TRAVEL"],
+        title: "Exploring the Hidden Gems of Southeast Asia",
+        date: "October 23, 2022",
+        image: "https://cdn.pixabay.com/photo/2023/07/08/22/04/begonia-8115230_1280.jpg",
+        text: `
+        When it comes to breathtaking landscapes, rich cultures, and exotic experiences, Southeast Asia has it all. While popular destinations like Thailand, Vietnam, and Bali attract tourists from around the world, there are many hidden gems waiting to be explored.
+
+        Consider visiting Luang Prabang in Laos, a UNESCO World Heritage site known for its well-preserved French colonial architecture and Buddhist temples. The city sits at the confluence of the Mekong and Nam Khan rivers, offering stunning views and a peaceful ambiance.
+
+        For nature lovers, the Cameron Highlands in Malaysia is a must-visit. This cool and refreshing hill station is famous for its tea plantations, strawberry farms, and mossy forests. Trekking enthusiasts will find plenty of trails to explore, and the local cuisine is a delightful mix of Malay, Chinese, and Indian flavors.
+
+        If you seek tranquility, head to the island of Koh Rong Samloem in Cambodia. With its white sandy beaches and turquoise waters, this paradise is perfect for relaxation and snorkeling. Embrace the slow pace of life, far from the hustle and bustle of the city.
+
+        The Philippines' Banaue Rice Terraces will leave you in awe. Carved into the mountains over 2,000 years ago, these terraces are a testament to the ingenuity of the Ifugao people. The view of the terraces against the backdrop of the Cordillera Mountains is a sight to behold.
+
+        These are just a few examples of the hidden gems waiting to be discovered in Southeast Asia. Whether you're an adventurous backpacker or a culture enthusiast, this diverse region has something to offer for everyone. Step off the beaten path and immerse yourself in the beauty of Southeast Asia's hidden treasures.
+        `
+    },
+
+    {
+        id: 6,
+        username: "Sophia Lee",
+        avatar: "https://www.w3schools.com/w3images/avatar4.png",
+        bio: "Sophia Lee is a food blogger and culinary artist ...",
+
+        // Post data
+        category: ["FOOD"],
+        title: "Mastering the Art of Sourdough Bread: Tips and Techniques",
+        date: "October 24, 2022",
+        image: "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_640.jpg",
+        text: `
+        Sourdough bread is a culinary delight cherished by bread enthusiasts worldwide. Its distinctive tangy flavor, chewy texture, and crispy crust make it stand out from ordinary bread. If you're looking to master the art of making sourdough at home, here are some essential tips and techniques to follow:
+
+        1. Starter Care: A healthy sourdough starter is the heart of great sourdough bread. Feed your starter regularly with equal parts of flour and water to keep it active and bubbly. Adjust the feeding schedule based on room temperature and the activity of your starter.
+
+        2. Autolyse: Autolyse is a resting period that allows flour and water to hydrate before adding the starter and salt. Mix flour and water in your recipe and let them rest for about 30 minutes. This enhances gluten development and improves the dough's extensibility.
+
+        3. Stretch and Fold: Instead of traditional kneading, use the stretch and fold method to develop gluten in your dough. Perform a series of stretch and fold actions during the bulk fermentation stage, typically every 30 minutes for a few hours.
+
+        4. Bulk Fermentation: Allow your dough to ferment at room temperature for several hours until it increases in volume and develops air pockets. The duration of bulk fermentation depends on the ambient temperature and the strength of your starter.
+
+        5. Cold Proofing: After shaping your dough, place it in the refrigerator for an extended cold proofing period. This step enhances flavor, improves the dough's structure, and makes it easier to score.
+
+        6. Proper Scoring: Use a sharp blade or scoring tool to make cuts on the surface of your dough before baking. Scoring allows the dough to expand during baking and creates attractive patterns on the crust.
+
+        7. Steam Baking: Steam is essential for achieving a crispy crust. Use a Dutch oven or baking cloche to trap steam during the initial phase of baking, then remove the lid to allow browning.
+
+        Remember, sourdough baking is a journey of experimentation and learning. Don't be discouraged by occasional failures; each bake brings new insights. With practice and patience, you'll soon be enjoying bakery-quality sourdough bread right from your oven.
+        `
+    },
+
+    {
+        id: 7,
+        username: "Michael Johnson",
+        avatar: "https://www.w3schools.com/w3images/avatar5.png",
+        bio: "Michael Johnson is a fitness enthusiast and personal trainer ...",
+
+        // Post data
+        category: ["HEALTH"],
+        title: "The Power of Functional Training: Building Strength for Real-Life Movements",
+        date: "October 25, 2022",
+        image: "https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg",
+        text: `
+        Functional training has gained popularity in recent years as fitness enthusiasts and athletes recognize its benefits for real-life movements. Unlike traditional weightlifting exercises that focus on isolated muscle groups, functional training emphasizes movements that mimic everyday activities.
+
+        Compound exercises, such as squats, deadlifts, and lunges, are staples of functional training. These exercises engage multiple muscle groups and improve overall strength and stability. Additionally, functional training often involves using equipment like kettlebells, resistance bands, and medicine balls to add variety and challenge to workouts.
+
+        One of the key advantages of functional training is its transferability to daily life. By training movements that we use in our routines, such as lifting groceries, carrying luggage, or picking up children, we improve our functional fitness and reduce the risk of injuries.
+
+        Moreover, functional training can benefit athletes by enhancing their sports performance. Athletes can tailor their workouts to replicate the specific movements required in their sports, leading to improved agility, balance, and power.
+
+        Here are some tips to incorporate functional training into your fitness routine:
+
+        1. Focus on Movement Patterns: Identify the movements you perform regularly and incorporate exercises that mirror those patterns. For example, if you often need to push and pull objects, include pushing and pulling exercises in your workouts.
+
+        2. Engage Core Muscles: Functional training places significant emphasis on core stability. Incorporate exercises that challenge your core, such as planks, Russian twists, and wood chops.
+
+        3. Use Unilateral Exercises: Unilateral exercises, which involve one limb at a time, can help correct muscle imbalances and improve coordination. Single-leg squats and one-arm rows are excellent unilateral exercises.
+
+        4. Maintain Proper Form: Pay close attention to your form during functional exercises to prevent injuries and get the most out of your workouts.
+
+        Whether you're an athlete seeking to enhance sports performance or an individual looking to improve everyday movements, functional training can be a valuable addition to your fitness routine. Embrace the versatility and effectiveness of functional exercises to build functional strength and improve overall well-being.
+        `
+    },
+
+    {
+        id: 8,
+        username: "Jennifer Adams",
+        avatar: "https://www.w3schools.com/w3images/avatar6.png",
+        bio: "Jennifer Adams is a passionate environmentalist and advocate ...",
+
+        // Post data
+        category: ["ENVIRONMENT"],
+        title: "Sustainable Living: Small Steps for a Greener Future",
+        date: "October 26, 2022",
+        image: "https://cdn.pixabay.com/photo/2013/07/18/20/26/sea-164989_640.jpg",
+        text: `
+        As global awareness about environmental issues grows, more people are striving to adopt sustainable practices in their daily lives. Sustainable living involves making conscious choices to reduce our ecological footprint and preserve the planet for future generations. Here are some small but impactful steps you can take towards a greener future:
+
+        1. Reduce Single-Use Plastics: Carry reusable bags, water bottles, and coffee cups to avoid disposable plastic items. These simple switches can significantly reduce plastic waste that ends up in landfills and oceans.
+
+        2. Conserve Energy: Turn off lights, appliances, and electronics when not in use. Replace traditional incandescent bulbs with energy-efficient LED lights, and consider using a programmable thermostat to optimize energy consumption.
+
+        3. Choose Sustainable Transportation: Whenever possible, opt for walking, cycling, or public transportation to reduce carbon emissions. If you need a car, consider investing in an electric or hybrid vehicle.
+
+        4. Support Local and Organic Products: Purchase locally grown and organic food items to support sustainable farming practices and reduce the carbon footprint of transportation.
+
+        5. Practice Water Conservation: Fix leaks and install water-saving fixtures in your home. Additionally, use water wisely by taking shorter showers and watering plants in the early morning or late evening to reduce evaporation.
+
+        6. Recycle and Compost: Separate recyclable materials from your regular trash and compost food scraps to divert waste from landfills.
+
+        7. Embrace Minimalism: Consume mindfully and avoid unnecessary purchases. Choose quality over quantity and opt for products with minimal packaging.
+
+        8. Plant Trees and Gardens: Trees absorb carbon dioxide and release oxygen, making them essential in the fight against climate change. Start a small garden at home to grow your fruits and vegetables sustainably.
+
+        9. Educate and Advocate: Raise awareness about environmental issues among your friends and family. Participate in local environmental initiatives and advocate for sustainable practices in your community.
+
+        Sustainable living is a collective effort, and every small action can make a difference. By adopting eco-friendly habits and inspiring others to do the same, we can create a greener and more sustainable future for generations to come.
+        `
+    },
+
+    {
+        id: 9,
+        username: "Daniel Wilson",
+        avatar: "https://www.w3schools.com/w3images/avatar6.png",
+        bio: "Daniel Wilson is a photography enthusiast and world traveler ...",
+
+        // Post data
+        category: ["PHOTOGRAPHY"],
+        title: "Capturing the Beauty of Nature: Tips for Stunning Landscape Photography",
+        date: "October 27, 2022",
+        image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+        text: `
+        Landscape photography allows us to immortalize the breathtaking beauty of nature and create lasting memories of our journeys. Whether you're an amateur photographer or a seasoned pro, here are some tips to help you capture stunning landscape photos:
+
+        1. Plan Your Shoot: Research the location you intend to photograph and check the weather conditions. Knowing the sunrise and sunset times can help you capture magical golden hour shots.
+
+        2. Use a Tripod: A sturdy tripod is essential for keeping your camera steady and capturing sharp images, especially in low light conditions.
+
+        3. Pay Attention to Composition: Follow the rule of thirds and frame your shots with interesting foreground elements to create depth and lead the viewer's eye into the scene.
+
+        4. Use Filters: Graduated neutral density (ND) filters can help balance the exposure between the sky and the landscape, while polarizing filters reduce glare and enhance colors.
+
+        5. Embrace Golden Hour and Blue Hour: The hour after sunrise and before sunset (golden hour) and the hour after sunset and before sunrise (blue hour) offer soft, warm light ideal for landscape photography.
+
+        6. Capture Motion: Experiment with long exposure shots to capture the movement of water or clouds. Using a slow shutter speed can create a dreamy and ethereal effect.
+
+        7. Focus on Details: While capturing wide-angle vistas is essential, don't forget to zoom in and photograph intricate details like patterns in rocks or textures in tree bark.
+
+        8. Wait for the Right Moment: Patience is key in landscape photography. Wait for the right light and weather conditions to capture the scene at its best.
+
+        9. Post-Processing: Use editing software to enhance your images subtly. Adjusting exposure, contrast, and color balance can make your photos even more captivating.
+
+        10. Practice and Experiment: Landscape photography is an art that improves with practice. Experiment with different techniques and learn from your mistakes.
+
+        Remember, landscape photography is not just about capturing beautiful images but also about immersing yourself in the beauty of nature. Take time to appreciate the scenery and connect with the environment to create meaningful and evocative photographs.
+        `
+    },
+
+    {
+        id: 10,
+        username: "Sarah Adams",
+        avatar: "https://www.w3schools.com/w3images/avatar1.png",
+        bio: "Sarah Adams is a book lover, writer, and literary critic ...",
+
+        // Post data
+        category: ["BOOKS"],
+        title: "The Magic of Reading: How Books Enrich Our Lives",
+        date: "October 28, 2022",
+        image: "https://cdn.pixabay.com/photo/2014/09/14/18/04/dandelion-445228_1280.jpg",
+        text: `
+        In the age of digital media, the simple act of reading a physical book may seem nostalgic, but the magic of reading remains as potent as ever. Books have the power to transport us to different worlds, inspire us, and enrich our lives in countless ways.
+
+        1. Imagination and Creativity: Reading fuels our imagination like nothing else. When we read, we create vivid mental images of the characters, settings, and events, allowing us to become active participants in the story.
+
+        2. Empathy and Understanding: Books give us a glimpse into the lives and experiences of diverse characters. By stepping into their shoes, we develop empathy and a deeper understanding of different cultures, perspectives, and human emotions.
+
+        3. Stress Reduction: The simple act of immersing ourselves in a good book can reduce stress and promote relaxation. It provides an escape from daily worries and allows us to unwind.
+
+        4. Mental Stimulation: Reading is an excellent workout for our brains. It enhances cognitive abilities, improves vocabulary, and strengthens our ability to focus and concentrate.
+
+        5. Knowledge and Learning: Books are an incredible source of knowledge. Whether it's fiction or non-fiction, each book offers something new to learn, whether it's historical facts, scientific discoveries, or philosophical insights.
+
+        6. Personal Growth: The stories we read often resonate with our own experiences and challenges. They can inspire us to grow, overcome obstacles, and embrace change.
+
+        7. Connection and Community: Books have the power to bring people together. Book clubs, literary festivals, and online discussions create communities of readers who share their love for stories and ideas.
+
+        8. Time Travel: Through books, we can travel through time and explore different epochs and historical periods. It's a way to experience the past and learn from its lessons.
+
+        9. Inspiration and Motivation: The stories of remarkable individuals overcoming adversity or achieving greatness can motivate and inspire us to pursue our dreams and passions.
+
+        10. Lasting Legacy: Books have the ability to transcend generations. The stories we read today can be passed on to future generations, leaving a lasting impact on the world.
+
+        So, let's celebrate the magic of reading and make time for books in our lives. Whether it's getting lost in a thrilling novel, delving into a thought-provoking essay, or revisiting a beloved classic, each reading experience enriches our lives and adds a little magic to our journey.
+        `
+    },
+
+
+
 ]
 
 
