@@ -3,16 +3,16 @@ import Link from "next/link"
 const Blog = ({...props}) =>{
     const linkHref = props.Data ? `/by/${props.Data.id}` : '';
     return (
-        <div className="w-1/2 flex items-center justify-center h-auto flex-col">
+        <div className="w-1/2 mb-30 flex items-center justify-center h-screen flex-col">
 
            <Link href={linkHref} className="w-full  flex items-center justify-center h-auto flex-col">
-           <Image
-                alt={"things"}
-                src={props.Data ? props.Data.image : "Loading"}
-                width={600}
-                height={300}
-                className="rounded-xl shadow-lg w-10/12 hover:w-11/12 max-w-10/12  duration-500  hover:w-550 hover:h-550"
-            />
+            <Image
+                    alt={"things"}
+                    src={props.Data ? props.Data.image : "Loading"}
+                    width={600}
+                    height={300}
+                    className="rounded-xl shadow-lg w-10/12 hover:w-11/12 max-w-10/12  duration-500  hover:w-550 hover:h-550"
+                />
 
             <p className="w-full text-left pl-20 p-5 text-[#6d1e72] font-semibold">{props.Data ? props.Data.category : "Loading"}</p>
 
