@@ -9,7 +9,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 const getBlogs = async (pg:any) => {
   try {
-    const res = await axios.get(`http://localhost:3001/api/all?pg=${pg}`);
+    const res = await axios.get(`https://blogtst.vercel.app/api/all?pg=${pg}`);
     return res.data;
   } catch (error) {
     console.error("Error fetching data:", error);
