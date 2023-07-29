@@ -1,10 +1,8 @@
-"use client"
-
+"use client" 
 import React, { useState, useRef, useLayoutEffect } from 'react'
-import Navbar from "./components/navbar";
-import Head from "next/head";
-import Blog from "./components/Blog";
-import axios from 'axios';
+import Navbar from "./components/navbar"
+import Blog from "./components/Blog"
+import axios from 'axios'
 import InfiniteScroll from 'react-infinite-scroll-component'
 
 const getBlogs = async (pg:any) => {

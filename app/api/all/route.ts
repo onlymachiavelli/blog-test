@@ -1,18 +1,14 @@
 // api/bruh/route.ts
 
-import { NextRequest, NextResponse } from 'next/server';
-import { json } from 'stream/consumers';
-import blogs from '@/fakeDatas/blog';
+import { NextRequest, NextResponse } from 'next/server'
+import blogs from '@/fakeDatas/blog'
 
 export async function GET(req: NextRequest,res : NextResponse) {
     
     if (req.method === 'GET'){
-       //return json response with json message 
 
-    //get request query 
     const url = new URL(req.url || '')
     const pagination:any = url.searchParams.get('pg')
-    //limit of post is always 2 
 
 
     let response = [] 

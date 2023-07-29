@@ -6,7 +6,6 @@ import axios from 'axios'
 import Navbar from './../../components/navbar'
 import Image from 'next/image'
 import Head from 'next/head'
-//dynamic route 
 
 const getBlog = async (id:any) =>{
     try {
